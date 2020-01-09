@@ -7,7 +7,6 @@ except ImportError:
 import pytesseract
 import os
 
-import os
 filelist=os.listdir('.')
 nfile = open('documents.txt', 'w+')
 for fichier in filelist[:]:
