@@ -17,6 +17,7 @@ class Templater(cmd.Cmd):
             print("Template set successfully")
         except:
             print("Not a valid template")
+
     def do_reset_template(self, line):
         """Usage: reset_template
         Resets the template to the original_template.
